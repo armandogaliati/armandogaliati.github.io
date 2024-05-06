@@ -14,6 +14,7 @@ h1 {
     font-size: 46px;
     text-align: center;
     margin-bottom: 0px;
+    border-radius: 4px;
 }
 
 h2 {
@@ -26,6 +27,7 @@ h2 {
     padding: 10px;
     margin-top: 48px;
     margin-bottom: 12px;
+    border-radius: 4px;
 }
 
 ul {
@@ -53,18 +55,28 @@ a {
     display: inline-block;
     background-color: #1d1a2f;
     padding: 1px;
+    border-radius: 4px;
+    box-shadow: 3px 4px 10px 1px gray;
+    margin-right: 20px;
 }
 
 .menu a {
     color: #965fd4;
     font-weight: bold;
-    text-shadow: #1d1a2f;
     background-color: #8bd450;
     padding: 16px;
     text-decoration: none;
-    display: inline-block
+    display: inline-block;
+    border-radius: 4px;
 }
 
 .menu a:hover {
-    background-color: #b6b6b6;
+    background-color: #965fd4;
+    color: #8bd450;
+}
+
+.menu a:active {
+    background-color: #ea8533;
+    color: #ed2323;
+
 }
