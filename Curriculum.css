@@ -9,12 +9,14 @@ body {
 }
 
 h1 {
-    color: #1d1a2f;
+    color: #8bd450;
     background-color: #965fd4;
     font-size: 46px;
     text-align: center;
-    margin-bottom: 0px;
+    padding: 5px;
     border-radius: 4px;
+    text-shadow: 2px 1px 10px black;
+    
 }
 
 h2 {
