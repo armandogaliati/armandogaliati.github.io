@@ -1,93 +1,81 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 80%;
-    margin: auto;
-    color: #444;
-    background-color: #ccc;
-    margin-bottom: 40px;
-
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: auto;
+  color: #444;
+  background-color: #ccc;
+  margin-bottom: 40px;
 }
 
 h1 {
-    color: #8bd450;
-    background-color: #965fd4;
-    font-size: 46px;
-    text-align: center;
-    padding: 5px;
-    border-radius: 4px;
-    text-shadow: 2px 1px 10px black;
-
+  color: #8bd450;
+  background-color: #965fd4;
+  font-size: 46px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  text-shadow: 2px 1px 10px black;
 }
 
 h2 {
-    color: #734f9a;
-    background-color: #b6b6b6;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    border-bottom: 3px solid;
-    border-color: #8bd450;
-    padding: 10px;
-    margin-top: 48px;
-    margin-bottom: 12px;
-    border-radius: 4px;
+  color: #734f9a;
+  background-color: #b6b6b6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  border-bottom: 3px solid;
+  border-color: #8bd450;
+  padding: 10px;
+  margin-top: 48px;
+  margin-bottom: 12px;
+  border-radius: 4px;
 }
 
-
-
 li {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .menu {
-    text-align: center;
-    display: flex;
-    height: 10%;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  height: 10%;
+  justify-content: center;
 }
 
 .menu li {
-    list-style: none;
-    display: inline-block;
-    background-color: #1d1a2f;
-    padding: 1px;
-    border-radius: 4px;
-    box-shadow: 3px 4px 10px 1px gray;
-    margin-right: 20px;
+  list-style: none;
+  display: inline-block;
+  background-color: #1d1a2f;
+  padding: 1px;
+  border-radius: 4px;
+  box-shadow: 3px 4px 10px 1px gray;
+  margin-right: 20px;
 }
-
-
-
 
 .menu a {
-    color: #965fd4;
-    font-weight: bold;
-    background-color: #8bd450;
-    padding: 16px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 4px;
-    font-size: 1em;
+  color: #965fd4;
+  font-weight: bold;
+  background-color: #8bd450;
+  padding: 16px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 1em;
 }
 
-
-
-
-
 .menu a:hover {
-    background-color: #965fd4;
-    color: #8bd450;
+  background-color: #965fd4;
+  color: #8bd450;
 }
 
 .menu a:active {
-    background-color: #ea8533;
-    color: #ed2323;
-
+  background-color: #ea8533;
+  color: #ed2323;
 }
