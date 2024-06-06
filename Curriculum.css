@@ -68,7 +68,12 @@ a {
   box-shadow: 3px 4px 10px 1px gray;
   margin-right: 20px;
 }
-
+.menu li:hover {
+  transform: scale(1.1);
+}
+.menu li:active {
+  transform: scale(1);
+}
 .menu a {
   color: #965fd4;
   font-weight: bold;
@@ -78,6 +83,7 @@ a {
   display: inline-block;
   border-radius: 4px;
   font-size: 1em;
+  transition: 0.2s ease-in-out;
 }
 
 .menu a:hover {
